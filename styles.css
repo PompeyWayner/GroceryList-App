@@ -1,0 +1,50 @@
+﻿body
+{
+    display: grid;
+    grid: max-content max-content max-content;
+    font-family: Arial, sans-serif;
+
+}
+
+#outer_container {
+    grid-column: 2;
+    width: 24rem;
+    height: 36rem;
+    border: 1px solid black;
+    border-radius: 18px;
+    background-color: #ec8b68;
+}
+
+#inner_container {
+    background-color: lightgray;
+    width: 22.8rem;
+    height: 34.8rem;
+    border: 1px solid black;
+    border-radius: 18px;
+    margin-left: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+header {
+    background-color: white;
+    height: 8rem;
+    border-bottom: 1px solid black;
+    border-radius: 18px 18px 0 0;
+}
+
+#image {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+div img {
+    width: 3rem;
+}
+
+#header_title {
+    text-align: center;
+    height: 2rem;
+    width: 14rem;
+    margin: 0 auto 0 auto;
+    
+}
