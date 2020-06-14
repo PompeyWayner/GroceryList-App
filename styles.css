@@ -45,6 +45,64 @@ div img {
     text-align: center;
     height: 2rem;
     width: 14rem;
-    margin: 0 auto 0 auto;
-    
+    margin: 0 auto 0 auto;  
+}
+
+#menu_bar {
+    height: 3rem;
+    background-color: lightgray;
+    border-bottom: 1px solid black;
+}
+
+
+#add_item {
+    float: right;
+    color: #ec8b68;
+    font-size: 3rem;
+    list-style-type: none;
+    text-shadow: 2px 2px 1px #9f593f;
+    padding-right: 1rem;
+    text-decoration: none;
+}
+
+
+.complete {
+    background-color: #999;
+    color: #fff;
+    background-image: url("../images/icon-trash.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    border-top: 1px solid #666;
+    text-shadow: 2px 2px 1px #333;
+}
+
+ul {
+    background-color: #584f4d;
+    border: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    background-color: #ec8b68;
+    color: #fff;
+    border-top: 1px solid #fe9772;
+    border-bottom: 1px solid #9f593f;
+    font-size: 24px;
+    letter-spacing: .05em;
+    list-style-type: none;
+    text-shadow: 2px 2px 1px #9f593f;
+    height: 50px;
+    padding-left: 1em;
+    padding-top: 10px;
+}
+
+
+li a {
+    color: #fff;
+    text-decoration: none;
+    background-image: url("../images/icon-link.png");
+    background-position: center, right;
+    background-repeat: no-repeat;
+    padding-right: 36px;
 }
