@@ -4,30 +4,36 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>Grocery List</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles.css">  
 </head>
 <body>
-
     <div id="outer_container">
         <div id="inner_container">
             <header>
                 <div id="image"><img src="header_image.jpg" /></div>
-                <h1 id="header_title"> Grocery List</h1>           
+                <h1 id="header_title"> Grocery List</h1>
             </header>
-            <section id="menu_bar"><a href="" id="add_item">+</a></section>
-             
-            <section>
+
+            <h4>Empty List </h4>
+
+            <section id="menu_bar">
+                <section class="button">
+                    <input class="item_input" id="itemInput" type="text" placeholder="Enter item" />
+                    <a href="#additem" class="add_item">+</a>
+                </section>
+            </section>
+           
+            <section id="list_container">
                 <ul id="shoppingList">
-                    <li>figs</li>
+                    <!--<li>figs</li>
                     <li>pine nuts</li>
                     <li>honey</li>
-                    <li>balsamic vinegar</li>
+                    <li>balsamic vinegar</li>-->
                 </ul>
             </section>
         </div>
     </div>
-
+    <script src="index.js"></script>
 </body>
 </html>
